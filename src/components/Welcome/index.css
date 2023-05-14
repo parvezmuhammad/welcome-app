@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.welcomeapp-conainer {
+  background-color: #1e293b;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.welcome-heading {
+  font-size: 50px;
+  font-family: breeserif;
+  font-weight: 600;
+  padding: 5px;
+  color: #f0bb03;
+}
+.welcomeapp-para {
+  font-size: 30px;
+  font-family: 'breeserif';
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0px;
+}
+.welcome-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 3px;
+  font-weight: 600;
+  font-family: breeserif;
+}
